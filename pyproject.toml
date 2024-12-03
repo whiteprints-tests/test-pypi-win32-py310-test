@@ -64,6 +64,7 @@ urls.download = "https://github.com/whiteprints-tests/test-pypi-win32-py310-test
 urls.homepage = "https://github.com/whiteprints-tests/test-pypi-win32-py310-test"
 urls.integration = "https://github.com/whiteprints-tests/test-pypi-win32-py310-test/actions"
 urls.issues = "https://github.com/whiteprints-tests/test-pypi-win32-py310-test/issues"
+urls.pypi = "https://pypi.org/project/test-pypi-win32-py310-test"
 urls.repository = "https://github.com/whiteprints-tests/test-pypi-win32-py310-test"
 scripts.test-pypi-win32-py310-test = "test_pypi_win32_py310_test.cli.entrypoint:test_pypi_win32_py310_test"
 

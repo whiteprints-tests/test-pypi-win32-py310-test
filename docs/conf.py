@@ -63,6 +63,12 @@ html_theme_options = {
             "icon": "fa-brands fa-square-github",
             "type": "fontawesome",
         },
+        {
+            "name": "PyPI",
+            "url": "https://pypi.org/project/test-pypi-win32-py310-test",
+            "icon": "fa-brands fa-python",
+            "type": "fontawesome",
+        },
     ],
 }
 intersphinx_mapping = {
