@@ -6,8 +6,15 @@
 
 from typing import Final
 
+from test_pypi_win32_py310_test.environment import (
+    ENVIRONMENT_FILE,
+    load_dotenv,
+)
 from test_pypi_win32_py310_test.package_metadata import __version__
 
 
 __all__: Final = ["__version__"]
 """Public module attributes."""
+
+
+load_dotenv(ENVIRONMENT_FILE)
